@@ -1,0 +1,80 @@
+/***************************************
+          Global settings
+****************************************/
+* {
+  padding: 0;
+  font-family: arial; }
+
+body {
+  margin: 0 auto;
+  overflow-x: hidden; }
+
+/***************************************
+          Animation properties
+****************************************/
+/***************************************
+          Style settings
+****************************************/
+section {
+  width: 1920px;
+  margin-left: -9.5px; }
+  section .show {
+    display: block !important;
+    opacity: 1 !important; }
+  section .content {
+    width: 1920px !important;
+    height: 1100px;
+    position: relative;
+    overflow: hidden;
+    background: #000000;
+    padding-top: 30px; }
+    section .content ul {
+      width: 1620px;
+      height: 1080px;
+      list-style: none;
+      position: relative;
+      margin: 0 auto; }
+      section .content ul .big__img {
+        width: 540px;
+        height: 360px;
+        position: absolute;
+        left: 540px;
+        top: 180px;
+        z-index: 10; }
+        section .content ul .big__img .hover {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          z-index: 11;
+          display: none; }
+      section .content ul li {
+        width: 180px;
+        height: 180px;
+        float: left;
+        position: relative; }
+        section .content ul li .img2 {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          z-index: 2;
+          display: none; }
+        section .content ul li .img3 {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          z-index: 3;
+          display: none; }
+        section .content ul li a {
+          display: block;
+          width: 180px;
+          height: 180px; }
+          section .content ul li a img {
+            border: 0; }
+
+/*# sourceMappingURL=index.css.map */

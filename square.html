@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Square</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body class="root-height-set">
+<section>
+  <div class="content">
+  <ul>
+    <div class="big__img">
+      <div class="hover"><img src="images/big.jpg" width="100%" alt=""></div>
+      <img src="images/big.jpg" width="100%" alt="">
+    </div>
+  </ul>
+  </div>
+</section>
+</body>
+<script src="scripts/jquery-1.10.2.min.js"></script>
+<script src="scripts/square.js"></script>
+<script>
+$(function(){
+  window.onload = function() {
+    Square.create({
+      who:$(".content>ul"),
+      length:54,
+      href:["","","","","","","","","","","","","","","","","","","","","","","",
+            "","","","","","","","","","","","","","","","","","","","","","","",
+            "","","","","","","",""],
+      bigImg:['images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+              'images/bigTest.jpg','images/bigTest.jpg','images/bigTest.jpg',
+            ],
+      normal:['images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+              'images/1.jpg','images/2.jpg','images/3.jpg',
+            ],
+      colorful:['images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+                'images/1h.jpg','images/2h.jpg','images/3h.jpg',
+            ],
+      tag:['images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+           'images/1hh.jpg','images/2hh.jpg','images/3hh.jpg',
+            ],
+    });
+    Square.render({
+      who:$(".content>ul"),
+      length:20,
+      time:3000
+    });
+  };
+   setInterval(function(){
+     Square.render({
+       who:$(".content>ul"),
+       length:20,
+       time:3000
+     });
+   },3000);
+
+
+   $("body").on("mouseenter",".content>ul>li",function(){
+      var str = $(this);
+      var src = str.attr("data-img");
+      str.find(".img3").addClass("show");
+      $(".big__img>.hover").show(0,function(){
+        $(".big__img>.hover>img").attr("src",src);
+      });
+   });
+   $("body").on("mouseleave",".content>ul>li",function(){
+      var str = $(this);
+      str.find(".img3").removeClass("show");
+      $(".big__img>.hover").hide(0,function(){
+        $(".big__img>.hover>img").attr("src","images/big.jpg");
+      });
+   });
+});
+</script>
+</html>
